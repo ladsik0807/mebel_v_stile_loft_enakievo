@@ -1,0 +1,54 @@
+.section_catalog{
+	display: flex;
+	padding: 150px 50px;
+	text-align: center;
+}
+
+.section_header_catalog{
+    font-size: 26px;
+	font-weight: 300;
+	line-height: 1;
+	color: #333;
+	font-family:segoe script;
+}
+
+
+.foto_catalog{
+    display: flex;
+	justify-content: space-between;
+	padding: 10px ;
+	padding: 0px 2px 0px 2px;
+
+
+}
+.foto_item_catalog{
+width: 31,5%;
+padding: 0px 2px 0px 2px;
+}
+
+.foto_img_catalog{
+background: linear-gradient(to top, #f2c8c8, #f3a1a1);
+padding: 0px -2px 0px -2px;
+
+}
+
+.foto_item_catalog:hover .foto_img_catalog img{
+	opacity: 0.1;
+
+}
+
+
+.foto_img_catalog img{
+	transition: opacity 0.1s linear;
+
+	display: block;
+}
+
+.about_foto_catalog{
+ font-size: 15px;
+font-family:segoe script;
+}
+
+.about_foto_catalog h4,h6{
+margin: 0px auto;
+}

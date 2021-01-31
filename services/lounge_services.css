@@ -1,0 +1,51 @@
+
+/*section*/ 
+.section{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	
+	border: 20px;
+
+}
+
+
+.section_header{
+	font-size: 26px;
+	font-weight: 300;
+	padding: 130px 50px 0px 30px;
+	text-align: center;
+	line-height: 1;
+	color: #333;
+	font-family:segoe script;
+}
+
+.section_text{
+	font-size: 20px;
+	font-family: Tahoma,verdana,sans-serif;
+	color: #333;
+	border: 20px;
+	padding: 5px 100px;
+}
+
+.section_text h7{
+	font-size: 20px;
+	font-family: Tahoma,verdana,sans-serif;
+	text-decoration: underline;
+	justify-content: left;
+	color: #333;
+	border: 20px;
+	padding: 30px auto;
+}
+
+
+.section_text li{
+	font-size: 18px;
+	font-family: Tahoma,verdana,sans-serif;
+	justify-content: left;
+	color: #333;
+	border: 20px;
+	margin: 10px auto
+}
